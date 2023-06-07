@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Fill Table",
+  "description": "Automatically add new table fields from XLSX file",
+  "permissions": ["activeTab"],
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto Fill Table",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "128": "logo512.png"
+    }
+  }
+}

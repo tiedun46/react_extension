@@ -1,0 +1,13 @@
+.container {
+  width: 500px;
+  height: 300px;
+  font-size: 14px;
+  /* overflow: auto; */
+}
+h2{
+  font-size: 16px;
+}
+
+.col-lg-7 label, .col-lg-7 button, .col-lg-7 select, .col-lg-7 input, .col-lg-7 p{
+  font-size: 12px;
+}
